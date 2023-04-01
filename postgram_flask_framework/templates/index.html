@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+{{ super() }}
+<hr>
+Post list
+<ul>
+    {% for p in posts %}
+    <li>
+        <p class="title"><a href="{{ url_for('show_post', alias=p.url) }}">{{ p.title }}</a></p>
+        <div class="annonce">{{ p.text[:250] | striptags }}....</div>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

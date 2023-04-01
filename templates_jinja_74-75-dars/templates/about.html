@@ -1,0 +1,11 @@
+{% extends 'page.html' %}
+{% block title %}Sayt xaqida{% endblock %}
+
+{% block content %}
+{% block table_contents %}
+{{ super() }}
+{% endblock %}
+<h1>{{ self.title() }}</h1>
+<p>Sayt sarlavhasi</p>
+{# {% block item %}<p class="item">{{ super() }}</p>{% endblock %} #}
+{% endblock %}

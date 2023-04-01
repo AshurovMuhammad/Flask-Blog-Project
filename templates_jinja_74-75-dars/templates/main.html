@@ -1,0 +1,7 @@
+{% include ['header.html', 'page2.html'] ignore missing %}
+{# {% import 'dialogs.html' as dlg %} #}
+{% from 'dialogs.html' import dialog1 as dlg %}
+<p>Soderjanie stranitsi</p>
+{# {{ dlg.dialog1("Vnimaniya", "Eto textoviy dialog") }} #}
+{{ dlg("Vnimaniya", "Eto textoviy dialog") }}
+{% include 'footer.html' %}

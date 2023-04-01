@@ -1,0 +1,69 @@
+body{
+    background: lightyellow;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#login{
+    background: #FFF;
+    width: 260px;
+    margin: 100px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 2px #CCC;
+    border-radius: 6px;
+}
+.login .title{
+    text-align: center;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+}
+.meinmenu{
+    background: gold;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20px;
+    margin-top: 0;
+}
+.meinmenu li{
+    margin-right: 30px;
+}
+
+
+.content{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+p>a{
+    text-decoration: none;
+    color: brown;
+}
+li>p, li div{
+    border: 1px solid #CCC;
+    padding: 10px 20px;
+}
+p.title{
+    margin: 0;
+    font-weight: bold;
+    background: gold;
+}
+p.title a{
+    display: block;
+}
+p.title:hover{
+    background: orange;
+}
+.annonce{
+    margin-top: -1px;
+    margin-bottom: 40px;
+    background: #FFF;
+}

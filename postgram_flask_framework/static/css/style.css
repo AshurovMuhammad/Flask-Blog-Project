@@ -1,0 +1,105 @@
+body{
+    background: #BDE7FF; /*lightyellow*/
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background: #890000;
+    padding: 20px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    color: #890000;
+    font-weight: bold;
+}
+
+.flash{
+    padding: 0px;
+}
+
+.flash.success{
+    border: 1px solid #21DB56;
+    background: #02E4D6;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.flash.error{
+    border: 1px solid #FF4343;
+    background: #FF9C9C;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form-contact{
+    padding: 0px 0px;
+}
+
+.form-contact a{
+    color: #890000;
+}
+
+.form-contact input, textarea {
+    border-radius: 5px;
+}
+
+.send{
+    background: #890000;
+    color: white
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+p>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+li>p, li div{
+    border: 1px solid #890000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+p.title{
+    margin: 0;
+    font-weight: bold;
+    background: #890000;
+}
+
+p.title a{
+    display: block;
+}
+
+p.title a:hover{
+    color: #890000;
+}
+
+p.title:hover{
+    background: #BDE7FF;/*#21DB56;*/
+}
+
+.annonce{
+    margin-top: -1px;
+    margin-bottom: 40px;
+    background: white;
+}
